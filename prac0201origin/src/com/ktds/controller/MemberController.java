@@ -10,7 +10,7 @@ import com.ktds.vo.MemberVO;
 public class MemberController {
 	public static void main(String[] args) {
 		
-		//MemberService service = new MemberServiceImpl();
+		//MemberService service = new MemberServiceImpl(); 
 		MemberService service = new SecondMemberServiceImpl();
 		
 		MemberVO member = new MemberVO();
